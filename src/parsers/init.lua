@@ -1,3 +1,3 @@
 return {
-    png = require(script.png)
+    png = require("./png")
 };

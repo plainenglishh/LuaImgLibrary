@@ -1,3 +1,12 @@
-# RbxImg
+<div align="center">
+# RbxImgLibrary
+Basic Image Processing in LuaU
+</div>
 
-This library is a work in progress. For PNG decoding I recommend you use MaximumADHD's PNG library (which the PNG decoder in this is influenced by) for the time being
+-----
+
+## About
+
+This library intends to provide he ability to decode, process and encode images in Roblox's LuaU.
+
+This is a work in progress. I recommend you use MaximumADHD's PNG library (which the PNG decoder in this project is influenced by) for the time being.

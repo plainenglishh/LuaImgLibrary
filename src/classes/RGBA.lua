@@ -1,5 +1,5 @@
 
-local util = require(script.Parent.util);
+local util = require("../util/util");
 
 local RGBA = {};
 RGBA.__index = RGBA;

@@ -4,12 +4,12 @@ local EXPECTED_SIG = "\x89\x50\x4E\x47\x0D\x0A\x1A\x0A";
 
 local http_service = game:GetService("HttpService"); --TODO: Replace with runtime indepdendent functions.
 
-local zlib = require(script.Parent.Parent.packages.zlib);
-local BufferReader = require(script.Parent.Parent.util.BufferReader);
-local RGBA = require(script.Parent.Parent.util.RGBA);
-local Bitmap = require(script.Parent.Parent.util.Bitmap);
-local Animation = require(script.Parent.Parent.util.Animation);
-local Frame = require(script.Parent.Parent.util.Frame);
+local zlib = require("../packages/zlib");
+local BufferReader = require("../classes/BufferReader");
+local RGBA = require("../classes/RGBA");
+local Bitmap = require("../classes/Bitmap");
+local Animation = require("../classes/Animation");
+local Frame = require("../classes/Frame");
 
 local function chunk_name_bit(name: string, position: number)
     return name:sub(position, position):byte() > 96;

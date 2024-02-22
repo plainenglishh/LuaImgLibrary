@@ -1,4 +1,4 @@
-local Bitmap = require(script.Parent.Bitmap);
+local Bitmap = require("./Bitmap");
 
 local Frame = {};
 Frame.__index = Frame;

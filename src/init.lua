@@ -1,6 +1,6 @@
 local http_service = game:GetService("HttpService");
 
-local parsers = require(script.parsers);
+local parsers = require("./parsers/init");
 
 local URL_A = "http://localhost:8000/ezgif-1-486cd991ac-ezgif.com-resize.png";
 --local URL_A = "https://s1.ezgif.com/tmp/ezgif-1-b77d10435c.png"

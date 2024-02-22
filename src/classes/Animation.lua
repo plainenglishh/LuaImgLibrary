@@ -1,4 +1,4 @@
-local Frame = require(script.Parent.Frame);
+local Frame = require("./Frame");
 
 local Animation = {};
 Animation.__index = Animation;

@@ -1,3 +1,6 @@
+--!nocheck
+local ctx = require("./runtime.lua");
+
 local util = {};
 
 function util.deep_copy(obj)
@@ -13,5 +16,8 @@ function util.deep_copy(obj)
     
     return new;
 end
+
+util.http_get = ctx.http_get;
+util.guid = ctx.guid;
 
 return util;

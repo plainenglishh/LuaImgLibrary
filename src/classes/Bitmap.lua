@@ -1,7 +1,7 @@
 --!native
 
-local RGBA = require(script.Parent.RGBA);
-local util = require(script.Parent.util);
+local RGBA = require("../classes/RGBA");
+local util = require("../util/util");
 
 local Bitmap = {};
 Bitmap.__index = Bitmap;
